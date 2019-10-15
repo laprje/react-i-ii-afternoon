@@ -1,22 +1,87 @@
 .App {
-  text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-}
+
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #34A5DA;
+  padding-bottom: 25px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  padding-top: 25px;
+  padding-left: 50px;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color:#222222;
+  font-weight: 700;
+
 }
 
-.App-link {
-  color: #09d3ac;
+.App-body {
+  display: flex;
+  background-color: #222222;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+.Previous {
+  margin-top: 50px;
+  border: none;
+  background-color: #222222;
+  color: white;
+  font-size: 25px;
+  display: flex;
+  flex-direction: flex-start;
+  margin-right: 400px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.Next {
+  margin-top: 50px;
+  border: none;
+  background-color: #222222;
+  color: white;
+  font-size: 25px;
+  display: flex;
+  flex-direction: flex-end;
+  margin-left: 400px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.white-box {
+  background-color: white;
+  height: 600px;
+  width: auto;
+  border-radius: 5px;
+  padding-left: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 700;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  
+}
+
+.name {
+  color: #222222;
+  display: flex;
+  font-size: 40px;
+  text-decoration: underline;
+  text-decoration-color: #34A5DA;
+ 
+}
+
+.index {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 5px;
+  font-size: 35px;
 }
